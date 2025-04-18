@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UI/UX
 
-## Getting Started
+![Light](https://ucarecdn.com/bc8a5afd-0222-465c-8c40-63eca814be55/-/preview/1000x562/)
+![Dark](https://ucarecdn.com/8c28344a-2b1d-4563-9d9b-68da37d118a3/-/preview/1000x562/)
 
-First, run the development server:
+# Deployment Blocker: React Compatibility Issue
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## The Problem
+
+I'm currently facing a deployment blocker with my Next.js dashboard application. When trying to deploy to Vercel, the build fails due to a compatibility issue between the latest React version and Radix UI components.
+
+### Error Details
+
+```
+Failed to compile.
+
+./node_modules/@radix-ui/react-use-effect-event/dist/index.mjs
+Attempted import error: 'useEffectEvent' is not exported from 'react' (imported as 'React').
+
+Import trace for requested module:
+./node_modules/@radix-ui/react-use-effect-event/dist/index.mjs
+./node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs
+./node_modules/@radix-ui/react-toggle-group/dist/index.mjs
+./components/ui/toggle-group.tsx
+./components/chart-area-interactive.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Root Cause
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This issue is caused by a version mismatch:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. The project uses React 19, which is very recent
+2. Several Radix UI components (particularly toggle-group) depend on an internal React feature called `useEffectEvent`
+3. While this hook exists in React's codebase, it's not officially exported in the current stable version
 
-## Learn More
+## Resolution Plan
 
-To learn more about Next.js, take a look at the following resources:
+I'm working on resolving this by:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Downgrading React to version 18.2.0
+2. Downgrading Radix UI components to versions that don't rely on this unstable React feature
+3. Updating the build configuration to ensure compatibility
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Timeline
 
-## Deploy on Vercel
+I expect to have this resolved within 24-48 hours. Once fixed, the dashboard will be deployed and fully functional with all interactive features working as designed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```markdown
+# Deployment Blocker: React Compatibility Issue
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## The Problem
+
+I'm currently facing a deployment blocker with my Next.js dashboard application. When trying to deploy to Vercel, the build fails due to a compatibility issue between the latest React version and Radix UI components.
+
+### Error Details
+
+```
+Failed to compile.
+
+index.mjs
+Attempted import error: 'useEffectEvent' is not exported from 'react' (imported as 'React').
+
+Import trace for requested module:
+index.mjs
+index.mjs
+index.mjs
+toggle-group.tsx
+chart-area-interactive.tsx
+```
+
+## Root Cause
+
+This issue is caused by a version mismatch:
+
+1. The project uses React 19, which is very recent
+2. Several Radix UI components (particularly toggle-group) depend on an internal React feature called `useEffectEvent`
+3. While this hook exists in React's codebase, it's not officially exported in the current stable version
+
+## Resolution Plan
+
+I'm working on resolving this by:
+
+1. Downgrading React to version 18.2.0
+2. Downgrading Radix UI components to versions that don't rely on this unstable React feature
+3. Updating the build configuration to ensure compatibility
+
+## Timeline
+
+I expect to have this resolved within 24-48 hours. Once fixed, the dashboard will be deployed and fully functional with all interactive features working as designed.
+
+

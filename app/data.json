@@ -1,0 +1,614 @@
+[
+  {
+    "id": 1,
+    "header": "Executive Summary",
+    "type": "Summary",
+    "status": "In Process",
+    "target": "18",
+    "limit": "5",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 2,
+    "header": "Table of contents",
+    "type": "Table of contents",
+    "status": "Done",
+    "target": "29",
+    "limit": "24",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 3,
+    "header": "Q3 Sales Overview",
+    "type": "Report",
+    "status": "Done",
+    "target": "10",
+    "limit": "13",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 4,
+    "header": "Enterprise Sales Strategy",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "27",
+    "limit": "23",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 5,
+    "header": "Product Pricing Analysis",
+    "type": "Analysis",
+    "status": "In Process",
+    "target": "2",
+    "limit": "16",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 6,
+    "header": "Sales Capabilities Matrix",
+    "type": "Analysis",
+    "status": "In Process",
+    "target": "20",
+    "limit": "8",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 7,
+    "header": "CRM Integration Plan",
+    "type": "Technical",
+    "status": "In Process",
+    "target": "19",
+    "limit": "21",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 8,
+    "header": "Competitive Advantages",
+    "type": "Analysis",
+    "status": "Done",
+    "target": "25",
+    "limit": "26",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 9,
+    "header": "Innovative Sales Solutions",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "7",
+    "limit": "23",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 10,
+    "header": "AI-Powered Lead Scoring",
+    "type": "Technical",
+    "status": "Done",
+    "target": "30",
+    "limit": "28",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 11,
+    "header": "Omnichannel Sales Approach",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "9",
+    "limit": "31",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 12,
+    "header": "Value Proposition Overview",
+    "type": "Sales Material",
+    "status": "Done",
+    "target": "12",
+    "limit": "0",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 13,
+    "header": "Client Testimonials",
+    "type": "Sales Material",
+    "status": "Done",
+    "target": "22",
+    "limit": "33",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 14,
+    "header": "Customer Satisfaction Metrics",
+    "type": "Report",
+    "status": "Done",
+    "target": "15",
+    "limit": "34",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 15,
+    "header": "Sales Challenges and Solutions",
+    "type": "Analysis",
+    "status": "Done",
+    "target": "3",
+    "limit": "35",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 16,
+    "header": "Data Security for Sales Teams",
+    "type": "Compliance",
+    "status": "In Process",
+    "target": "6",
+    "limit": "36",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 17,
+    "header": "Market Expansion Strategy",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "4",
+    "limit": "37",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 18,
+    "header": "ROI Analysis",
+    "type": "Financial",
+    "status": "Done",
+    "target": "14",
+    "limit": "38",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 19,
+    "header": "Sales Team Onboarding Process",
+    "type": "Training",
+    "status": "Done",
+    "target": "17",
+    "limit": "39",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 20,
+    "header": "Product Roadmap for Sales",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "11",
+    "limit": "40",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 21,
+    "header": "Sales Tech Stack Overview",
+    "type": "Technical",
+    "status": "In Process",
+    "target": "24",
+    "limit": "18",
+    "reviewer": "Ravi Sharma"
+  },
+  {
+    "id": 22,
+    "header": "Sales Risk Assessment",
+    "type": "Analysis",
+    "status": "Done",
+    "target": "15",
+    "limit": "22",
+    "reviewer": "Marco Torres"
+  },
+  {
+    "id": 23,
+    "header": "GDPR Compliance for Sales",
+    "type": "Compliance",
+    "status": "In Process",
+    "target": "31",
+    "limit": "27",
+    "reviewer": "Lisa Chen"
+  },
+  {
+    "id": 24,
+    "header": "Sales API Documentation",
+    "type": "Technical",
+    "status": "Done",
+    "target": "8",
+    "limit": "12",
+    "reviewer": "Raj Patel"
+  },
+  {
+    "id": 25,
+    "header": "Sales Dashboard Mockups",
+    "type": "Visual",
+    "status": "In Process",
+    "target": "19",
+    "limit": "25",
+    "reviewer": "Leila Ahmadi"
+  },
+  {
+    "id": 26,
+    "header": "Customer Database Schema",
+    "type": "Technical",
+    "status": "Done",
+    "target": "22",
+    "limit": "20",
+    "reviewer": "Thomas Wilson"
+  },
+  {
+    "id": 27,
+    "header": "Sales Process Testing",
+    "type": "Quality",
+    "status": "In Process",
+    "target": "17",
+    "limit": "14",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 28,
+    "header": "Territory Deployment Strategy",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "26",
+    "limit": "30",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 29,
+    "header": "Sales Budget Breakdown",
+    "type": "Financial",
+    "status": "In Process",
+    "target": "13",
+    "limit": "16",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 30,
+    "header": "Target Market Analysis",
+    "type": "Research",
+    "status": "Done",
+    "target": "29",
+    "limit": "32",
+    "reviewer": "Sophia Martinez"
+  },
+  {
+    "id": 31,
+    "header": "Competitor Sales Comparison",
+    "type": "Research",
+    "status": "In Process",
+    "target": "21",
+    "limit": "19",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 32,
+    "header": "Account Management Plan",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "16",
+    "limit": "23",
+    "reviewer": "Alex Thompson"
+  },
+  {
+    "id": 33,
+    "header": "Buyer Personas",
+    "type": "Research",
+    "status": "In Process",
+    "target": "27",
+    "limit": "24",
+    "reviewer": "Nina Patel"
+  },
+  {
+    "id": 34,
+    "header": "Sales Contract Templates",
+    "type": "Legal",
+    "status": "Done",
+    "target": "18",
+    "limit": "21",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 35,
+    "header": "Sales Performance Metrics",
+    "type": "Report",
+    "status": "In Process",
+    "target": "23",
+    "limit": "26",
+    "reviewer": "David Kim"
+  },
+  {
+    "id": 36,
+    "header": "Sales Contingency Plan",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "14",
+    "limit": "17",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 37,
+    "header": "Partner Integration Strategy",
+    "type": "Strategy",
+    "status": "In Process",
+    "target": "25",
+    "limit": "28",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 38,
+    "header": "Customer Feedback Analysis",
+    "type": "Research",
+    "status": "Done",
+    "target": "20",
+    "limit": "15",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 39,
+    "header": "International Sales Strategy",
+    "type": "Strategy",
+    "status": "In Process",
+    "target": "12",
+    "limit": "19",
+    "reviewer": "Maria Garcia"
+  },
+  {
+    "id": 40,
+    "header": "Mobile Sales Tools",
+    "type": "Technical",
+    "status": "Done",
+    "target": "28",
+    "limit": "31",
+    "reviewer": "James Wilson"
+  },
+  {
+    "id": 41,
+    "header": "Lead Migration Process",
+    "type": "Technical",
+    "status": "In Process",
+    "target": "19",
+    "limit": "22",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 42,
+    "header": "Sales Quality Assurance",
+    "type": "Quality",
+    "status": "Done",
+    "target": "30",
+    "limit": "33",
+    "reviewer": "Priya Singh"
+  },
+  {
+    "id": 43,
+    "header": "Key Stakeholder Analysis",
+    "type": "Research",
+    "status": "In Process",
+    "target": "11",
+    "limit": "14",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 44,
+    "header": "Sustainable Sales Practices",
+    "type": "Strategy",
+    "status": "Done",
+    "target": "24",
+    "limit": "27",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 45,
+    "header": "Intellectual Property Guide",
+    "type": "Legal",
+    "status": "In Process",
+    "target": "17",
+    "limit": "20",
+    "reviewer": "Sarah Johnson"
+  },
+  {
+    "id": 46,
+    "header": "Customer Support for Sales",
+    "type": "Process",
+    "status": "Done",
+    "target": "22",
+    "limit": "25",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 47,
+    "header": "Sales Collateral Management",
+    "type": "Process",
+    "status": "In Process",
+    "target": "15",
+    "limit": "18",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 48,
+    "header": "Sales Pipeline Automation",
+    "type": "Technical",
+    "status": "Done",
+    "target": "26",
+    "limit": "29",
+    "reviewer": "Michael Chen"
+  },
+  {
+    "id": 49,
+    "header": "Sales Compliance Framework",
+    "type": "Compliance",
+    "status": "In Process",
+    "target": "13",
+    "limit": "16",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 50,
+    "header": "Sales Portal Authentication",
+    "type": "Technical",
+    "status": "Done",
+    "target": "28",
+    "limit": "31",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 51,
+    "header": "Sales Analytics Framework",
+    "type": "Technical",
+    "status": "In Process",
+    "target": "21",
+    "limit": "24",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 52,
+    "header": "Cloud CRM Infrastructure",
+    "type": "Technical",
+    "status": "Done",
+    "target": "16",
+    "limit": "19",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 53,
+    "header": "Sales Data Security",
+    "type": "Technical",
+    "status": "In Process",
+    "target": "29",
+    "limit": "32",
+    "reviewer": "Lisa Wong"
+  },
+  {
+    "id": 54,
+    "header": "Sales Campaign Timeline",
+    "type": "Planning",
+    "status": "Done",
+    "target": "14",
+    "limit": "17",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 55,
+    "header": "Sales Resource Allocation",
+    "type": "Planning",
+    "status": "In Process",
+    "target": "27",
+    "limit": "30",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 56,
+    "header": "Sales Team Structure",
+    "type": "Planning",
+    "status": "Done",
+    "target": "20",
+    "limit": "23",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 57,
+    "header": "Sales Communication Plan",
+    "type": "Planning",
+    "status": "In Process",
+    "target": "15",
+    "limit": "18",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 58,
+    "header": "Sales KPIs and Metrics",
+    "type": "Report",
+    "status": "Done",
+    "target": "30",
+    "limit": "33",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 59,
+    "header": "Global Sales Support",
+    "type": "Strategy",
+    "status": "In Process",
+    "target": "23",
+    "limit": "26",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 60,
+    "header": "Lead Data Backup Procedures",
+    "type": "Technical",
+    "status": "Done",
+    "target": "18",
+    "limit": "21",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 61,
+    "header": "Sales Pipeline Monitoring",
+    "type": "Technical",
+    "status": "In Process",
+    "target": "25",
+    "limit": "28",
+    "reviewer": "Daniel Park"
+  },
+  {
+    "id": 62,
+    "header": "Sales Proposal Guidelines",
+    "type": "Process",
+    "status": "Done",
+    "target": "12",
+    "limit": "15",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 63,
+    "header": "Sales Documentation Standards",
+    "type": "Process",
+    "status": "In Process",
+    "target": "27",
+    "limit": "30",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 64,
+    "header": "Quarterly Sales Release Plan",
+    "type": "Planning",
+    "status": "Done",
+    "target": "22",
+    "limit": "25",
+    "reviewer": "Assign reviewer"
+  },
+  {
+    "id": 65,
+    "header": "Sales Opportunity Matrix",
+    "type": "Planning",
+    "status": "In Process",
+    "target": "19",
+    "limit": "22",
+    "reviewer": "Emma Davis"
+  },
+  {
+    "id": 66,
+    "header": "Sales Process Optimization",
+    "type": "Process",
+    "status": "Done",
+    "target": "24",
+    "limit": "27",
+    "reviewer": "Mahavir Patel"
+  },
+  {
+    "id": 67,
+    "header": "Sales Capacity Planning",
+    "type": "Planning",
+    "status": "In Process",
+    "target": "21",
+    "limit": "24",
+    "reviewer": "Aisha Khan"
+  },
+  {
+    "id": 68,
+    "header": "Customer Service Level Agreements",
+    "type": "Legal",
+    "status": "Done",
+    "target": "26",
+    "limit": "29",
+    "reviewer": "Assign reviewer"
+  }
+]
